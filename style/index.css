@@ -1,0 +1,245 @@
+.navbar{
+    width:100%;
+    height:43px;
+    background-color: black;
+     justify-content:flex-start; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.box1{
+    height: auto;
+    width:40%;
+    /* border: 1px solid white; */
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 20px;
+}
+.b{
+    height: 100%;
+    width:30%; 
+    color: aliceblue;
+    
+}
+.box1>div{
+    font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    margin-top: 13px;
+}
+ .box2{
+    height:100%;
+    width:25%;
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 410px;
+
+} 
+ .c{
+    height: auto;
+    width:50%;
+    color:white;
+    font-size: 14px;
+    margin-left: 30px;
+} 
+.d{
+    height: auto;
+    width:30%;
+    color:white;
+    font-size: 14px;
+    /* margin-right: 25px; */
+}
+.a{
+    height: auto;
+    width:15%;
+    color:white;
+    font-size: 14px;
+}
+.box2>div{
+    margin-top: 15px;
+}
+#nav{
+    height:70px;
+    width:100%;
+    /* border:1px solid grey;  */
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.box{
+    height:100%;
+    width:25%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box>div{
+    margin-top: 25px;
+    margin-right: 15px;
+}
+.anav{
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+.x{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imag{
+   height: 100%;
+   width:9%;
+   display: flex;
+   margin-left: 5px;
+}
+img{
+    width:100%;
+} 
+.searchbar{
+    width: 30%;
+    border: 0;
+   height: 40px;
+  outline: 0;
+ padding: 10px; 
+ font-size: 16px;
+ font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+ background-color: #ecedeb;
+margin-top: 15px;
+}
+.boxx{
+    height:100%;
+    width:25%;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 130px;
+}
+.y{
+    font-size: 16px;
+    font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(1,auto) ;
+    gap: 0px;
+    width:97%;
+    margin:auto;
+    height:460px;
+
+    }
+      
+   .subscribeAndDownload {
+            margin: auto;
+            width: 80%;
+            padding: 3%;
+height: auto;
+display: grid;
+grid-template-columns: 60% 40%;
+justify-content: space-around;
+}
+
+.subscribe {
+margin: auto;
+width: 100%;
+text-align: left;
+vertical-align: middle;
+}
+
+.download {
+margin: auto;
+width: 100%;
+text-align: left;
+vertical-align: middle;
+}
+
+.subscribeAndDownload h4 {
+color: #757575;
+font-weight: 400;
+}
+
+.subscribeAndDownload button {
+width: 25%;
+height: 50px;
+border: 0px;
+color: white;
+font-size: 16px;
+font-weight: bolder;
+background-color: black;
+border-radius: 3%;
+border-radius: 5px;
+/* margin-right: 10px; */
+border-top-left-radius: 0px;
+border-bottom-left-radius:0px ;
+} 
+
+.subscribeAndDownload img {
+width: 45%;
+height: auto;
+}
+
+   
+   input{
+       width:50%;
+       height: 50px;
+       margin-left: 15px;
+       padding-left: 10px;
+       border: 0px;
+       box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+       border-radius: 5px;
+       font-size: 18px;
+   }
+   
+   .sub1{
+       grid-template-columns: repeat(5,1fr);
+       grid-template-rows: repeat(2,auto);
+      height: 600px;
+      display: grid;
+      gap: 0px;
+   }
+   /* .sub1>div{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+   } */
+   h5{
+       margin-top: 30px;
+       margin-left: 20px;
+       font-size:16px;
+       font-family: ProximaNova-Bold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+   }
+   .subform{
+       margin-left: -40px;
+   
+   }
+   dd{
+    color: #8c8e8a;
+     font-weight:lighter;
+    font-size:inherit;
+   }
+   
+     .sub3{
+       height:100px;
+       width:100%;
+       border:1px solid rgb(240, 244, 244);
+       display: flex;
+    
+   }
+     .subform3{
+         height: 100%;
+         width:10%;
+         margin-left: 15px;
+     }
+     .subform4{
+        height: 100%;
+         width:35%;
+        margin-top: 30px;
+        margin-left: 0px;
+     }
+     .subform3>img{
+         width:90%;
+         margin-top: 12px;
+     }
+     .subform4>p{
+         margin-top: 0px;
+         color:#8f8f8e;
+         font-weight: lighter;
+     }

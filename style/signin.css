@@ -1,0 +1,203 @@
+.navbar {
+    width: 100%;
+    height: 43px;
+    background-color: black;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .box1 {
+    height: auto;
+    width: 40%;
+    /* border: 1px solid white; */
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 20px;
+  }
+  .b {
+    height: 100%;
+    width: 30%;
+    color: aliceblue;
+  }
+  .box1 > div {
+    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji";
+    margin-top: 13px;
+  }
+  .box2 {
+    height: 100%;
+    width: 25%;
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 410px;
+  }
+  .c {
+    height: auto;
+    width: 50%;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  .d {
+    height: auto;
+    width: 30%;
+    color: white;
+    font-size: 14px;
+    /* margin-right: 25px; */
+  }
+  .a {
+    height: auto;
+    width: 15%;
+    color: white;
+    font-size: 14px;
+  }
+  .box2 > div {
+    margin-top: 15px;
+  }
+  #nav {
+    height: 70px;
+    width: 100%;
+    /* border:1px solid grey;  */
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .anav{
+      text-decoration: none;
+      color: black;
+      margin-top: 20px;
+    }
+    .x {
+      text-decoration: none;
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  .box {
+    height: 100%;
+    width: 25%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .box > div {
+    margin-top: 25px;
+    margin-right: 15px;
+  }
+  .x {
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .imag {
+    height: 100%;
+    width: 9%;
+    display: flex;
+    margin-left: 5px;
+  }
+  img {
+    width: 100%;
+  }
+  .searchbar {
+    width: 30%;
+    border: 0;
+    height: 40px;
+    outline: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji";
+    background-color: #ecedeb;
+    margin-top: 15px;
+  }
+  .boxx {
+    height: 100%;
+    width: 25%;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 130px;
+  }
+  .y {
+    font-size: 16px;
+    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji";
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  #signingbox {
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(252, 214, 220);
+  }
+  .signbox1 {
+    height: 100%;
+    width: 50%;
+    border: 1px solid rgb(239, 217, 217);
+  }
+  .blue {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(63, 61, 61);
+  }
+  .orange {
+    margin-left: 100px;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 16px;
+    border: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+  }
+  .yellow {
+    margin-left: 100px;
+    color: rgb(52, 47, 47);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-decoration: underline;
+  }
+  .lav {
+    width: 50%;
+    height: 40px;
+    background-color: rgb(212, 39, 68);
+    color: white;
+    margin-left: 100px;
+    border: 0px;
+    border-radius: 3px;
+  }
+  .detail {
+    margin-left: 150px;
+    font-size: medium;
+    color: rgb(49, 48, 48);
+    margin-top: 40px;
+  }
+  #firstname,
+  #lastname,
+  #email,
+  #password {
+    margin-left: 150px;
+    width: 50%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+    border: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+  }
+  .checked {
+    margin-left: 150px;
+    margin-top: 5px;
+  }
+  #signupbutton {
+    width: 50%;
+    height: 35px;
+    background-color: rgb(212, 39, 68);
+    color: white;
+    margin-left: 150px;
+    border: 0px;
+    border-radius: 3px;
+  }
